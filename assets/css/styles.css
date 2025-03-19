@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('testimonials.css');
+@import url('footer.css');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1; /* Faz o conteúdo principal ocupar o espaço disponível */
+}
+section {
+    padding: 28px 8%;
+
+}
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fc5204;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+    color: #702f15;
+}
+.btn-default:hover {
+    background-color: #663623;
+    color: white;
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_bar {
+    display: none;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    font-size: 1.25rem;
+    border-radius: 10px; 
+    text-decoration: none;
+    color: #663623;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.section-title {
+    color: #fc5204;
+    font-size: 1.5rem;
+}
+.section-subtitle {
+    font-size: 2.18rem;    
+}
