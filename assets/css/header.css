@@ -49,11 +49,14 @@ header {
         font-size: 1.5rem;
         cursor: pointer;
         color: #702f15;
+
     }
     #mobile_bar.active {
         display: flex;
         flex-direction: column;
         align-items: center;
+        color: #702f15;
+
     }
     #mobile_nav_list {
         display: flex;
